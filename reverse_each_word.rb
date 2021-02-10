@@ -2,8 +2,7 @@ require "pry"
 def reverse_each_word(sentence)
   reversed=""
   array=sentence.split
-  array.each do |word|
-    word.reverse
+  array.split.each{|element|reversed << "#{element.reverse}"}
   end
   array
 end
