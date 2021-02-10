@@ -4,4 +4,5 @@ def reverse_each_word(sentence)
   sentence.split.each{|element|reversed << "#{element.reverse} "}
   reversed.strip
 
+
 end
